@@ -62,16 +62,17 @@ For this particular example, all the click stream goes into PubSub and the Apach
 ### Running the code
 
 1.  Compile and run the pipeline. Note you need to replace 
-    YOUR-PROJECT (your GCP project name)
-    YOUR-SUBSCRIPTION (for PubSub Topic that your producer will be posting messages)
-    YOUR-BIGQUERY-DATASET (your BigQuery Dataset Name)
-    YOUR-RAW-TABLE-NAME (for the raw events archival)
-    YOUR-ABANDONED-TABLE-NAME (your BigQuery Abandoned Table Name)
-    MAX_NUM_WORKERS (maximum number of workers for Autoscaling) 
+    * YOUR-PROJECT (your GCP project name)
+    * YOUR-SUBSCRIPTION (for PubSub Topic that your producer will be posting messages)
+    * YOUR-BIGQUERY-DATASET (your BigQuery Dataset Name)
+    * YOUR-RAW-TABLE-NAME (for the raw events archival)
+    * YOUR-ABANDONED-TABLE-NAME (your BigQuery Abandoned Table Name)
+    * MAX_NUM_WORKERS (maximum number of workers for Autoscaling) 
+    
     with values matching your environment.
     
     Optional:
-    "--workerMachineType=YOUR_SPECIFIC_INSTANCE_TYPE"
+    * "--workerMachineType=YOUR_SPECIFIC_INSTANCE_TYPE"
     
 
     ```shell
